@@ -172,6 +172,16 @@ img
     filter: drop-shadow(0 0 16px #da2063);
 }
 
+.logo:active
+{
+    transition: .5s ease;
+    animation-direction: alternate;
+
+    animation-fill-mode: forwards;
+    fill: #da2063;
+    filter: drop-shadow(0 0 16px #da2063);
+}
+
 .icons
 {
     -webkit-transition: .5s ease;
@@ -182,6 +192,20 @@ img
 
 
 .icons:hover
+{
+    -webkit-transition: .5s ease;
+            transition: .5s ease;
+    -webkit-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+            transform: scale(1.2);
+    animation-direction: alternate;
+
+    animation-fill-mode: forwards;
+    fill: #da2063;
+    filter: drop-shadow(0 0 16px #da2063);
+}
+
+.icons:active
 {
     -webkit-transition: .5s ease;
             transition: .5s ease;
@@ -230,6 +254,18 @@ img
 }
 
 .btn:hover
+{
+    -webkit-transition: 500ms ease;
+            transition: 500ms;
+            transition: .5s ease;
+
+    color: #fff;
+    background: #da2063;
+
+    filter: drop-shadow(0 0 8px #da2063);
+}
+
+.btn:active
 {
     -webkit-transition: 500ms ease;
             transition: 500ms;
