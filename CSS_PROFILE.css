@@ -191,44 +191,45 @@ input, textarea{
     width: 320px;
     height: 48px;
 
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    transition-property: fill;
 
     fill: #fff;
 }
 
 .logo:hover
 {
-    transition: .5s ease;
-    animation-direction: alternate;
-
-    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    transition-property: fill, filter;
     fill: #da2063;
     filter: drop-shadow(0 0 16px #da2063);
 }
 
 .logo:active
 {
-    transition: .5s ease;
-    animation-direction: alternate;
-
-    animation-fill-mode: forwards;
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    transition-property: fill, filter;
     fill: #da2063;
     filter: drop-shadow(0 0 16px #da2063);
 }
 
 .logo:focus
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    transition-property: fill, filter;
 
     fill: #fff;
 }
 
 .icons
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: fill, filter, transform;
 
     fill: #fff;
 }
@@ -236,28 +237,25 @@ input, textarea{
 
 .icons:hover
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: fill, filter, transform;
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    animation-direction: alternate;
 
-    animation-fill-mode: forwards;
     fill: #da2063;
     filter: drop-shadow(0 0 16px #da2063);
 }
 
 .icons:active
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: fill, filter, transform;
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    animation-direction: alternate;
-
-    animation-fill-mode: forwards;
     fill: #da2063;
     filter: drop-shadow(0 0 16px #da2063);
 }
@@ -274,8 +272,9 @@ input, textarea{
     width: 136px;
     height: 48px;
 
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: color, filter, background;
     text-decoration: none;
 
     color: #03001c;
@@ -298,9 +297,9 @@ input, textarea{
 
 .btn:hover
 {
-    -webkit-transition: 500ms ease;
-            transition: 500ms;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: color, filter, background;
 
     color: #fff;
     background: #da2063;
@@ -310,9 +309,9 @@ input, textarea{
 
 .btn:active
 {
-    -webkit-transition: 500ms ease;
-            transition: 500ms;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: color, filter, background;
 
     color: #fff;
     background: #da2063;
@@ -351,8 +350,9 @@ input, textarea{
     width: 22px;
     height: 8px;
 
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: background-image;
 
     background-image: url(content/arrow.svg);
     background-repeat: no-repeat;
@@ -361,8 +361,9 @@ input, textarea{
 
 #arrow:hover
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: background-image;
 }
 
 .dropdown-content
@@ -419,28 +420,24 @@ svg
 
 #buttonicon:focus #lang
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: fill, filter, transform;
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    animation-direction: alternate;
-
-    animation-fill-mode: forwards;
     fill: #da2063;
     filter: drop-shadow(0 0 16px #da2063);
 }
 
 #buttonicon:active #lang
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: fill, filter, transform;
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    animation-direction: alternate;
-
-    animation-fill-mode: forwards;
     fill: #da2063;
     filter: drop-shadow(0 0 16px #da2063);
 }
@@ -495,28 +492,24 @@ svg
 
 .dropdown:hover #lang
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: fill, filter, transform;
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    animation-direction: alternate;
-
-    animation-fill-mode: forwards;
     fill: #da2063;
     filter: drop-shadow(0 0 16px #da2063);
 }
 
 #arrow:hover #lang
 {
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: fill, filter, transform;
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    animation-direction: alternate;
-
-    animation-fill-mode: forwards;
     fill: #da2063;
     filter: drop-shadow(0 0 16px #da2063);
 }
@@ -653,8 +646,9 @@ main
     height: 0;
     padding-bottom: 100%;
 
-    -webkit-transition: .8s ease;
-            transition: .8s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: background-image;
 
     background-image: url(content/star.svg);
     background-repeat: no-repeat;
@@ -663,8 +657,9 @@ main
 
 .star_0:hover
 {
-    -webkit-transition: .8s ease;
-            transition: .8s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: background-image;
 
     background-image: url(content/star_1.svg);
 }
@@ -676,8 +671,9 @@ main
     height: 534px;
     max-height: 534px;
 
-    -webkit-transition: .8s ease;
-            transition: .8s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: background-image;
 
     background-image: url(content/univ.svg);
     background-repeat: no-repeat;
@@ -686,8 +682,9 @@ main
 
 .univ:hover
 {
-    -webkit-transition: .8s ease;
-            transition: .8s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: background-image;
 
     background-image: url(content/univ_2.svg);
     background-repeat: no-repeat;
@@ -715,7 +712,9 @@ main
     width: 100%;
 
 
-    transition: 1s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: opacity;
 }
 
 .div_proj_1
@@ -723,7 +722,9 @@ main
     
     /*border: 1px solid #03001c;*/
     padding-bottom: 0;
-    transition: 1s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: opacity;
 }
 
 .div_proj_2
@@ -732,7 +733,9 @@ main
     
     border: 1px solid #FFF;
 
-    transition: 1s ease;
+    transition-timing-function: linear;
+    transition-duration: 0.3s;
+    transition-property: opacity;
 
     opacity: 0;
 }
@@ -742,7 +745,7 @@ main
 .div_proj_1:hover .div_proj_2
 {
     transition-timing-function: linear;
-    transition-duration: .5s;
+    transition-duration: .3s;
     transition-property: opacity;
 
     opacity: 1;
@@ -752,7 +755,7 @@ main
 .div_proj_1:hover .project_1
 {
     transition-timing-function: linear;
-    transition-duration: .5s;
+    transition-duration: .3s;
     transition-property: opacity;
 
     opacity: 0;
@@ -795,8 +798,8 @@ main
     width: 100px;
     height: 48px;
 
-    -webkit-transition: .5s ease;
-            transition: .5s ease;
+    -webkit-transition: .3s ease;
+            transition: .3s ease;
     text-decoration: none;
 
     color: #fff;
@@ -819,7 +822,7 @@ main
 
 .btn2:hover
 {
-    transition: 500ms;
+    transition: 300ms;
 
     color: #03001c;
     background: #fff;
@@ -845,8 +848,9 @@ main
     width: 196px;
     height: 196px;
 
-    -webkit-transition: 500ms ease;
-            transition: 500ms;
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    transition-property: background-image;
 
     background-repeat: no-repeat;
     background-size: 100% 100%;
@@ -854,8 +858,9 @@ main
 
 .hrd_skls:hover
 {
-    -webkit-transition: 500ms ease;
-            transition: 500ms;
+    transition-timing-function: linear;
+    transition-duration: .3s;
+    transition-property: background-image;
 
     background-repeat: no-repeat;
     background-size: 100% 100%;
