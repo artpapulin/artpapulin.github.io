@@ -8,7 +8,7 @@
 	$mail->Host = 'smtp.mail.ru';
 	$mail->SMTPAuth = true;                               
 	$mail->Username = 'artur-arturov-71@mail.ru';
-	$mail->Password = 'nbuhYKwy7XgXAXjduu3F'; 
+	$mail->Password = ''; 
 	$mail->SMTPSecure = 'ssl';
 	$mail->Port = 465; 
 
