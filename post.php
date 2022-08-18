@@ -13,7 +13,7 @@
 	$mail->Port = 465; 
 
 	function reCaptcha($recaptcha){
-  	$secret = "6LefgYkhAAAAABwTFMfi9XstRkAJ2M5b3MlHlj12";
+  	$secret = "SECRET";
   	$ip = $_SERVER['REMOTE_ADDR'];
 
 	$postvars = array("secret"=>$secret, "response"=>$recaptcha, "remoteip"=>$ip);
