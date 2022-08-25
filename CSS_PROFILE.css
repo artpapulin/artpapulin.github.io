@@ -1,7 +1,7 @@
 h1
 {
     font-family: 'Bebas Neue';
-    font-size: 48px;
+    font-size: 76px;
     font-weight: 400;
     font-style: normal;
 
@@ -10,13 +10,14 @@ h1
 
     letter-spacing: .07em;
 
-    color: #fff;
+    -webkit-text-stroke: 1px #fff;
+    -webkit-text-fill-color: rgba(0,0,0,0);
 }
 
 h2
 {
     font-family: 'Bebas Neue';
-    font-size: 76px;
+    font-size: 96px;
     font-weight: 100;
 
     margin-top: 0;
@@ -44,7 +45,7 @@ h3
 h4
 {
     font-family: 'Bebas Neue';
-    font-size: 48px;
+    font-size: 76px;
     font-weight: 400;
     font-style: normal;
 
@@ -53,7 +54,7 @@ h4
 
     letter-spacing: .07em;
 
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px #da2063;
     -webkit-text-fill-color: rgba(0,0,0,0);
 }
 
@@ -840,8 +841,37 @@ main
 
     flex-wrap: wrap;
     align-items: center;
-    column-gap: 40px;
+    column-gap: 20px;
 }
+
+.services{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.services h1:hover{
+    font-family: 'Bebas Neue';
+    font-size: 76px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    letter-spacing: .07em;
+
+    -webkit-text-stroke: 1px #da2063;
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    transition: linear .3s;
+
+}
+
+.services h1{
+    transition: linear .3s;
+}
+
 
 .hrd_skls
 {
@@ -1028,6 +1058,35 @@ main
     background-image: url(content/hrd_skls/02/1c.svg);
 }
 
+
+.contacts{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.contacts > a:hover h1{
+    font-family: 'Bebas Neue';
+    font-size: 76px;
+    font-weight: 400;
+    font-style: normal;
+
+    margin-top: 0;
+    margin-bottom: 0;
+
+    letter-spacing: .07em;
+
+    -webkit-text-stroke: 1px #da2063;
+    -webkit-text-fill-color: rgba(0,0,0,0);
+    transition: linear .3s;
+
+}
+
+.contacts > a{
+    text-decoration: none;
+    transition: linear .3s;
+}
 
 
 
