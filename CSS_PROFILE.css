@@ -869,6 +869,7 @@ main
 }
 
 .services h1{
+    word-wrap: break-word;
     transition: linear .3s;
 }
 
