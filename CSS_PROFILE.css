@@ -10,7 +10,7 @@ h1
 
     letter-spacing: .07em;
 
-    -webkit-text-stroke: 1px #fff;
+    -webkit-text-stroke: 1px var(--color-white);
     -webkit-text-fill-color: rgba(0,0,0,0);
 }
 
@@ -25,7 +25,7 @@ h2
 
     letter-spacing: 3px;
 
-    color: #fff;
+    color: var(--color-white);
 }
 
 h3
@@ -54,7 +54,7 @@ h4
 
     letter-spacing: .07em;
 
-    -webkit-text-stroke: 1px #da2063;
+    -webkit-text-stroke: 1px var(--color-pink);
     -webkit-text-fill-color: rgba(0,0,0,0);
 }
 
@@ -96,7 +96,7 @@ h6
     max-width: 1680px;
     height: 100%;
 
-    background: #03001c;
+    background: var(--color-darkblue);
 
     align-items: center;
     justify-items: center;
@@ -112,7 +112,7 @@ body
     width: 100%;
     margin: 0;
 
-    background: #03001c;
+    background: var(--color-darkblue);
 
     justify-content: center;
 }
@@ -135,11 +135,11 @@ img
 
 ::selection
 {
-    background-color: #da2063;
+    background-color: var(--color-pink);
 }
 ::-moz-selection
 {
-    background-color: #da2063;
+    background-color: var(--color-pink);
 }
 
 
@@ -149,11 +149,11 @@ img
     max-width: 642px;
     height: 745px;
     max-height: 745px;
-    outline: 3px solid white;
+    outline: 3px solid var(--color-white);
 }
 
 .input{
-    color: #da2063;
+    color: var(--color-pink);
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -196,7 +196,7 @@ input, textarea{
     transition-duration: .3s;
     transition-property: fill;
 
-    fill: #fff;
+    fill: var(--color-white);
 }
 
 .logo:hover
@@ -204,8 +204,8 @@ input, textarea{
     transition-timing-function: linear;
     transition-duration: .3s;
     transition-property: fill, filter;
-    fill: #da2063;
-    filter: drop-shadow(0 0 16px #da2063);
+    fill: var(--color-pink);
+    filter: drop-shadow(0 0 16px var(--color-pink));
 }
 
 .logo:active
@@ -213,8 +213,8 @@ input, textarea{
     transition-timing-function: linear;
     transition-duration: .3s;
     transition-property: fill, filter;
-    fill: #da2063;
-    filter: drop-shadow(0 0 16px #da2063);
+    fill: var(--color-pink);
+    filter: drop-shadow(0 0 16px var(--color-pink));
 }
 
 .logo:focus
@@ -223,7 +223,7 @@ input, textarea{
     transition-duration: .3s;
     transition-property: fill, filter;
 
-    fill: #fff;
+    fill: var(--color-white);
 }
 
 .icons
@@ -232,7 +232,7 @@ input, textarea{
     transition-duration: 0.3s;
     transition-property: fill, filter, transform;
 
-    fill: #fff;
+    fill: var(--color-white);
 }
 
 
@@ -245,8 +245,8 @@ input, textarea{
         -ms-transform: scale(1.2);
             transform: scale(1.2);
 
-    fill: #da2063;
-    filter: drop-shadow(0 0 16px #da2063);
+    fill: var(--color-pink);
+    filter: drop-shadow(0 0 16px var(--color-pink));
 }
 
 .icons:active
@@ -257,8 +257,8 @@ input, textarea{
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    fill: #da2063;
-    filter: drop-shadow(0 0 16px #da2063);
+    fill: var(--color-pink);
+    filter: drop-shadow(0 0 16px var(--color-pink));
 }
 
 
@@ -278,8 +278,8 @@ input, textarea{
     transition-property: color, filter, background;
     text-decoration: none;
 
-    color: #03001c;
-    background: #fff;
+    color: var(--color-darkblue);
+    background: var(--color-white);
 
     -ms-align-items: center;
         align-items: center;
@@ -302,10 +302,10 @@ input, textarea{
     transition-duration: 0.3s;
     transition-property: color, filter, background;
 
-    color: #fff;
-    background: #da2063;
+    color: var(--color-white);
+    background: var(--color-pink);
 
-    filter: drop-shadow(0 0 8px #da2063);
+    filter: drop-shadow(0 0 8px var(--color-pink));
 }
 
 .btn:active
@@ -314,10 +314,10 @@ input, textarea{
     transition-duration: 0.3s;
     transition-property: color, filter, background;
 
-    color: #fff;
-    background: #da2063;
+    color: var(--color-white);
+    background: var(--color-pink);
 
-    filter: drop-shadow(0 0 8px #da2063);
+    filter: drop-shadow(0 0 8px var(--color-pink));
 }
 
 .dropdown
@@ -380,15 +380,15 @@ input, textarea{
     -webkit-transition: .5s ease;
             transition: .5s ease;
 
-    outline: 1px solid #fff;
-    background-color: #03001c;
+    outline: 1px solid var(--color-white);
+    background-color: var(--color-darkblue);
 }
 
 
 .dropdown-content:first-child
 {
     cursor: none;
-    color: #03001c;
+    color: var(--color-darkblue);
 }
 
 svg
@@ -427,8 +427,8 @@ svg
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    fill: #da2063;
-    filter: drop-shadow(0 0 16px #da2063);
+    fill: var(--color-pink);
+    filter: drop-shadow(0 0 16px var(--color-pink));
 }
 
 #buttonicon:active #lang
@@ -439,8 +439,8 @@ svg
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    fill: #da2063;
-    filter: drop-shadow(0 0 16px #da2063);
+    fill: var(--color-pink);
+    filter: drop-shadow(0 0 16px var(--color-pink));
 }
 
 
@@ -469,7 +469,7 @@ svg
     text-align: center;
     text-decoration: none;
 
-    color: #fff;
+    color: var(--color-white);
 }
 
 .dropdown-content a:hover
@@ -477,8 +477,8 @@ svg
     -webkit-transition: .5s ease;
             transition: .5s ease;
 
-    color: #03001c;
-    background: #da2063;
+    color: var(--color-darkblue);
+    background: var(--color-pink);
 }
 
 
@@ -487,8 +487,8 @@ svg
     -webkit-transition: .5s ease;
             transition: 500ms;
 
-    color: #fff;
-    background: #da2063;
+    color: var(--color-white);
+    background: var(--color-pink);
 }
 
 .dropdown:hover #lang
@@ -499,8 +499,8 @@ svg
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    fill: #da2063;
-    filter: drop-shadow(0 0 16px #da2063);
+    fill: var(--color-pink);
+    filter: drop-shadow(0 0 16px var(--color-pink));
 }
 
 #arrow:hover #lang
@@ -511,8 +511,8 @@ svg
     -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
             transform: scale(1.2);
-    fill: #da2063;
-    filter: drop-shadow(0 0 16px #da2063);
+    fill: var(--color-pink);
+    filter: drop-shadow(0 0 16px var(--color-pink));
 }
 
 
@@ -530,7 +530,7 @@ footer
 
     pointer-events: none;
 
-    border-top: 1px solid #fff;
+    border-top: 1px solid var(--color-white);
 
     justify-content: center;
 }
@@ -558,7 +558,7 @@ header
 
     width: 100%;
 
-    background-color: #03001c;
+    background-color: var(--color-darkblue);
 
     justify-content: center;
 }
@@ -575,7 +575,7 @@ header .container
     padding-top: 36px;
     padding-bottom: 36px;
 
-    border-bottom: 1px solid #fff;
+    border-bottom: 1px solid var(--color-white);
 
     justify-content: center;
     gap: 36px;
@@ -721,7 +721,6 @@ main
 .div_proj_1
 {
     
-    /*border: 1px solid #03001c;*/
     padding-bottom: 0;
     transition-timing-function: linear;
     transition-duration: 0.3s;
@@ -732,7 +731,7 @@ main
 {
     
     
-    border: 1px solid #FFF;
+    border: 1px solid var(--color-white);
 
     transition-timing-function: linear;
     transition-duration: 0.3s;
@@ -803,8 +802,8 @@ main
             transition: .3s ease;
     text-decoration: none;
 
-    color: #fff;
-    border: 1px solid #fff;
+    color: var(--color-white);
+    border: 1px solid var(--color-white);
 
     -ms-align-items: center;
         align-items: center;
@@ -825,8 +824,8 @@ main
 {
     transition: 300ms;
 
-    color: #03001c;
-    background: #fff;
+    color: var(--color-darkblue);
+    background: var(--color-white);
 }
 
 
@@ -851,24 +850,6 @@ main
     gap: 10px 24px;
     align-items: center;
     word-wrap: break-word;
-}
-
-.services h1:hover{
-    font-family: 'Bebas Neue';
-    font-size: 76px;
-    font-weight: 400;
-    font-style: normal;
-
-    margin-top: 0;
-    margin-bottom: 0;
-
-    letter-spacing: .07em;
-    word-wrap: break-word;
-
-    -webkit-text-stroke: 1px #da2063;
-    -webkit-text-fill-color: rgba(0,0,0,0);
-    transition: linear .3s;
-
 }
 
 .services h1{
@@ -1081,7 +1062,7 @@ main
 
     letter-spacing: .07em;
 
-    -webkit-text-stroke: 1px #da2063;
+    -webkit-text-stroke: 1px var(--color-pink);
     -webkit-text-fill-color: rgba(0,0,0,0);
     transition: linear .3s;
 
@@ -1090,6 +1071,7 @@ main
 .contacts > a{
     text-decoration: none;
     transition: linear .3s;
+    width: 100%;
 }
 
 
@@ -1113,4 +1095,6 @@ footer
         font-size: ;
     }
 }
+
+
 
